@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(css/bg2.jpg) no-repeat;
+  background-size: cover;
+}
+.margen {
+  width: 1000px;
+  background: #14141486;
+  padding: 100px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 50px;
+  color: rgb(255, 255, 255);
+  font-family: "Georgia", sans-serif;
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+}
+.card {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.315);
+  font-family: "Georgia", sans-serif;
+  margin: auto;
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+}
+
+.margen-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.list-group{
+  color:black;
+  background-color: rgba(0, 0, 0, 0.315);
+}
+
+.btn-group button{
+  color:black;
+  background-color:white
+}
+.btn.active {
+  background-color: orange;
+}
+ul{
+  display: inline-block;
+  text-align: left;
+}
+
+ ul li{
+  display: inline-block;
+  margin: 25px;
+  list-style: none;
+}
+ul li a{
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+ul li a:hover{
+  color: #f78c00;
+}
